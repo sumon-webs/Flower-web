@@ -181,6 +181,7 @@ main{
 .sign-up-p{
     color: rgba(39, 39, 39, 0.8);
     font-size: 18px;
+    line-height: 30px;
 }
 
 /* Instagram section */
@@ -298,4 +299,175 @@ footer{
 
 .coppyright{
     color: rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (max-width:577px) {
+#max-width {
+    width: 90%;
+    max-width: 577px;
+    padding: 0 15px;
+}
+
+/* Hero section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.back-color{
+        background-color:rgba(185, 82, 103, 0.1);
+        margin-bottom: 78px;
+    }
+.hero-text {
+    gap: 15px;
+}
+
+.hero-h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.hero-p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+/* Main  */
+main{
+    gap: 80px;
+}
+
+/* Flower section */
+.flower-about {
+    gap: 18px;
+}
+
+.our-flower-p {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.image-container {
+    flex-direction: column;
+    gap: 35px;
+}
+
+.imag-box {
+    gap: 10px;
+}
+
+.imag-1 {
+    padding: 60px 48px 0px 48px;
+}
+
+.imag-2 {
+    padding: 60px 13px 51px 13px;
+}
+
+.imag-3 {
+    padding: 36px 43px 0px 43px;
+}
+
+.our-container {
+    padding: 19px 0px;
+}
+
+/* Delivery section*/
+.delivey-p {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+/* Sign up section */
+
+#sign-up-section {
+    padding: 19px 10px;
+    width: 90%;
+    max-width: 577px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sign-up-h2 {
+    font-size: 34px;
+}
+
+.sign-up-option {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-up-p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* Instagram section */
+.about-instagram {
+    gap: 15px;
+}
+
+.insta-p {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.insta-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 12px;
+}
+
+.insta-image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Deal section */
+.deal-container {
+    max-width: 90%;
+    gap: 25px;
+    padding: 70px 0px;
+}
+
+.deal-h2 {
+    font-size: 30px;
+}
+
+.deal-name {
+    gap: 6px;
+}
+
+.deal-p {
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+/* Footer section */
+
+footer {
+    margin-top: 57px;
+}
+
+.footer-section {
+    width: 90%;
+    padding:50px 0px;
+}
+
+.footer-h2 {
+    font-size: 30px;
+}
+
+.footer-p {
+    font-size: 14px;
+    line-height: 25px;
+}
 }
