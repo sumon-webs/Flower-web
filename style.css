@@ -374,15 +374,15 @@ main{
 }
 
 .imag-1 {
-    padding: 60px 48px 0px 48px;
+    padding: 50px 38px 0px 38px;
 }
 
 .imag-2 {
-    padding: 60px 13px 51px 13px;
+    padding:50px 11px 51px 11px;
 }
 
 .imag-3 {
-    padding: 36px 43px 0px 43px;
+    padding: 26px 33px 0px 33px;
 }
 
 .our-container {
@@ -423,6 +423,8 @@ main{
 
 /* Instagram section */
 .about-instagram {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 
