@@ -301,10 +301,10 @@ footer{
     color: rgba(255, 255, 255, 0.4);
 }
 
-@media screen and (max-width:577px) {
+@media screen and (max-width:450px) {
 #max-width {
     width: 90%;
-    max-width: 577px;
+    max-width: 450px;
     padding: 0 15px;
 }
 
